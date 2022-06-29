@@ -1,0 +1,156 @@
+body, html{
+    background-color: rgb(49, 49, 49);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#title{
+    justify-content: center;
+    text-align: center;
+    color: #626fff;
+    font-size: 50px;
+}
+
+
+#aes{
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+#def_aes{
+    position: absolute;
+    top: 23%;
+    left: 75%;
+}
+
+
+
+#caesar{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+#def_cae{
+    position: absolute;
+    top: 42%;
+    left: 75%; 
+}
+
+
+
+#bin{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+@media only screen and (max-width: 1000px){
+        
+    #aes{
+        position: absolute;
+        top: 20%;
+        left: 55%;
+    }
+    #def_aes{
+        position: absolute;
+        top: 23%;
+        left: 80%;
+    }
+
+
+
+    #caesar{
+        position: absolute;
+        top: 40%;
+        left: 55%;
+    }
+    #def_cae{
+        position: absolute;
+        top: 42%;
+        left: 80%; 
+    }
+
+
+
+    #bin{
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #aes{
+        position: absolute;
+        top: 30%;
+        left: 15%;
+    }
+    #def_aes{
+        position: absolute;
+        top: 30%;
+        left: 75%;
+        height: 100px;
+        width: 50px;
+    }
+
+
+
+    #caesar{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+    #def_cae{
+        position: absolute;
+        top: 50%;
+        left: 75%; 
+        height: 100px;
+        width: 50px;
+    }
+
+
+
+    #bin{
+        position: absolute;
+        top: 70%;
+        left: 15%;
+    }   
+}
+
+@media only screen and (max-height: 600px){
+    #aes{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+    #def_aes{
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        height: 100px;
+        width: 50px;
+    }
+
+
+
+    #caesar{
+        position: absolute;
+        top: 80%;
+        left: 15%;
+    }
+    #def_cae{
+        position: absolute;
+        top: 80%;
+        left: 75%; 
+        height: 100px;
+        width: 50px;
+    }
+
+
+
+    #bin{
+        position: absolute;
+        top: 110%;
+        left: 15%;
+    }   
+}

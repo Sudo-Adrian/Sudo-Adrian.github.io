@@ -1,0 +1,35 @@
+html{
+    background-color: rgb(49, 49, 49);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;  
+}
+
+#title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #626fff;
+    font-size: 40px;
+}
+
+.btn{
+	transition: all 0.5s;
+	color: #000000;
+	border-radius: 20px;
+    border: 0px;
+    color: #ffffff;
+    background-color: #626fff;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+	background-color: #4954c7;
+}
+
+.btn:active{
+	background-color: #2f3686;
+    transform: translate(0%, 10%);
+    transition: 0.05s;
+}
