@@ -4,11 +4,7 @@
 }
 
 
-.action{
-    height: 50px;
-    width: 100px;
-    background-color: #000000;
-}
+
 
 #convert{
     position: absolute;
@@ -92,7 +88,7 @@
 
 #home{
     position: absolute;
-    top: 84%;
+    top: 5%;
     left: 5%;
     height: 50px;
     width: 100px;

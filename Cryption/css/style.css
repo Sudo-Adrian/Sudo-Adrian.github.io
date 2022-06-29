@@ -1,17 +1,3 @@
-body, html{
-    background-color: rgb(49, 49, 49);
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-}
-
-#title{
-    justify-content: center;
-    text-align: center;
-    color: #626fff;
-    font-size: 50px;
-}
-
-
 #aes{
     position: absolute;
     top: 20%;
@@ -117,7 +103,7 @@ body, html{
     }   
 }
 
-@media only screen and (max-height: 600px){
+@media only screen and (max-height: 800px){
     #aes{
         position: absolute;
         top: 50%;
