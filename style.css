@@ -1,6 +1,6 @@
 :root {
     --main-color: #62daff;
-    --bg: #1f1f1f;
+    --bg: #0a0a0a;
     --text: #ffffff;
 }
 
@@ -16,7 +16,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--main-color);
+    color: var(--text);
     font-size: 40px;
 }
 

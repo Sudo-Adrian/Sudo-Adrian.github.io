@@ -1,9 +1,1 @@
-1. BES encryption 
-
-2. Contact information:
-    Email client
-    Github link
-
-3. Adding Projects
-
-4. Linking Github to projects
+1. Custom theme settings complete

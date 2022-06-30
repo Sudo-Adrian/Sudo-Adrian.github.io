@@ -140,3 +140,89 @@
         left: 15%;
     }   
 }
+
+#color-p{
+	color: var(--text);
+	font-size: 40px;
+	position: absolute;
+	left:29.5%;
+	top: 45%;
+}
+
+#red{
+	color: #f44545;
+	background-color: #f44545;
+	position: absolute;
+	top: 47%;
+	left: 45%;
+}
+
+#org{
+	color: #f48b45;
+	background-color: #f48b45;
+	position: absolute;
+	top: 52%;
+	left: 47%;
+}
+#yel{
+	color: #ffff45;
+	background-color: #ffff45;
+	position: absolute;
+	top: 47%;
+	left: 49%;
+}
+#gre{
+	color: #76ff6f;
+	background-color: #76ff6f;
+	position: absolute;
+	top: 52%;
+	left: 51%;
+}
+#blu{
+	color: #6f89ff;
+	background-color: #6f89ff;
+	position: absolute;
+	top: 47%;
+	left: 53%;
+}
+
+#pur{
+	color: #a63aff;
+	background-color: #a63aff;	
+	position: absolute;
+	top: 52%;
+	left: 55%;
+}
+
+#whi{
+	color: #ffffff;
+	background-color: #ffffff;	
+	position: absolute;
+	top: 47%;
+	left: 57%;
+}
+
+#bla{
+	color: #000000;
+	background-color: #000000;	
+	position: absolute;
+	top: 52%;
+	left: 59%;
+}
+
+#open-own{
+	top: 75%;
+	left: 19.5%;
+}
+
+#theme{
+	left: 30%;
+	top: 25%;
+}
+
+#btn-theme{
+	position: absolute;
+	left: 45%;
+	top: 29%;
+}
+

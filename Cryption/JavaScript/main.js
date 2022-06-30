@@ -9,68 +9,67 @@ var purple = document.getElementById("pur");
 var black = document.getElementById("bla");
 var white = document.getElementById("whi");
 
-//Cache not in array -> stores in string, For each color own variable in cache
-//format each var in cache to array
-let dark = ["#62daff", "#0a0a0a", "#ffffff"]
-let light = ["#2c16ac", "#dddddd", "#000000"]
-let theme = localStorage["theme"]
-let color = localStorage["color"]
+var main_col = document.getElementById("col-main");
+var text_col = document.getElementById("col-text");
+var bgc_col = document.getElementById("col-bg");
+var set = document.getElementById("set-theme")
 
-set_color(color)
+let dark = [localStorage["main"], "#0a0a0a", "#ffffff"]
+let light = [localStorage["main"], "#dddddd", "#000000"]
 
-if (theme == "dark"){
-    set_vars(dark)
-}else{
-    set_vars(light)
-}
-//list = ["theme", "--main-color", "--bg", "--text"]
-function set_vars(list) {
-    root.style.setProperty('--bg', list[1])
-    root.style.setProperty('--text', list[2])
+let theme_local = localStorage["theme"]
+let background_local = localStorage["background"]
+let main_local = localStorage["main"]
+let text_local = localStorage["text"]
+
+
+//list = ["--main-color", "--bg", "--text"]
+function set_vars(back, main, text) {
+    root.style.setProperty('--bg', back)
+    root.style.setProperty('--text', text)
+    root.style.setProperty('--main-color', main)
+
+    localStorage["main"] = main
+    localStorage["text"] = text
+    localStorage["background"] = back
 }
 
 theme_btn.onclick = function() {
-    theme = localStorage["theme"]
-
-    if (theme == "dark") {
+    if (localStorage["theme"] == "dark"){
         localStorage["theme"] = "light"
-        set_vars(light)
-    }else{
+        set_vars(light[1], light[0], light[2])
+    }else if (localStorage["theme"] == "light"){
         localStorage["theme"] = "dark"
-        set_vars(dark)
-    }
-    theme_btn.innerText = localStorage["theme"]
-}
+        set_vars(dark[1], dark[0], dark[2])
+    }else{
 
-function set_color(color) {
-    root.style.setProperty('--main-color', color)
-    localStorage["color"] = color
+    }
 }
 
 red.onclick = function() {
-    set_color("#f44545")
+    set_vars(background_local, "#f44545", text_local)
 }
 
 orange.onclick = function() {
-    set_color("#f48b45")
+    set_vars(background_local, "#f48b45", text_local)
 }
 yellow.onclick = function() {
-    set_color("#ffff45")
+    set_vars(background_local, "#ffff45", text_local)
 }
 green.onclick = function() {
-    set_color("#76ff6f")
+    set_vars(background_local, "#76ff6f", text_local)
 }
 blue.onclick = function() {
-    set_color("#6f89ff")
+    set_vars(background_local, "#6f89ff", text_local)
 }
 purple.onclick = function() {
-    set_color("#a63aff")
+    set_vars(background_local, "#a63aff", text_local)
 }
 
 black.onclick = function() {
-    set_color("#000000")
+    set_vars(background_local, "#000000", text_local)
 }
 
 white.onclick = function() {
-    set_color("#ffffff")
+    set_vars(background_local, "#ffffff", text_local)
 }
