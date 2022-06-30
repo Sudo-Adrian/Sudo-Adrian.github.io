@@ -11,7 +11,7 @@ var white = document.getElementById("whi");
 
 //Cache not in array -> stores in string, For each color own variable in cache
 //format each var in cache to array
-let dark = ["#62daff", "#1f1f1f", "#ffffff"]
+let dark = ["#62daff", "#0a0a0a", "#ffffff"]
 let light = ["#2c16ac", "#dddddd", "#000000"]
 let theme = localStorage["theme"]
 let color = localStorage["color"]

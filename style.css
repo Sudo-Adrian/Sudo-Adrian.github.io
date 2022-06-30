@@ -58,6 +58,12 @@ html{
     width: 200px;
 }
 
+.text{
+    color: var(--text);
+	font-size: 40px;
+	position: absolute;
+}
+
 @keyframes transform-op {
     0%{
         opacity: 0;

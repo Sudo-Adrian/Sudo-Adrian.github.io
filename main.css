@@ -36,9 +36,6 @@ li{
 }
 
 #theme{
-	color: var(--text);
-	font-size: 40px;
-	position: absolute;
 	left: 30%;
 	top: 25%;
 }
@@ -62,8 +59,8 @@ li{
 	height: 40px;
 	width: 40px;
 	border-radius: 20px;
-	border: 5px;
-	border-color: #000000;
+	border: 1px;
+	border-color: #aaaaaa;
 	border-style: solid;
 }
 
@@ -135,4 +132,14 @@ li{
 	position: absolute;
 	top: 52%;
 	left: 59%;
+}
+
+#open-own{
+	top: 60%;
+	left: 26.5%;
+}
+
+#close-own{
+	top: 80%;
+	left: 40%;
 }
