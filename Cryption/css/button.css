@@ -62,7 +62,7 @@
     }
 }
 
-@media only screen and (max-width: 600px) and (max-height: 800px){
+@media only screen and (max-width: 600px) and (max-height: 700px){
     #convert{
         position: absolute;
         top: 50%;
@@ -88,8 +88,20 @@
 
 #home{
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 5%;
     height: 50px;
     width: 100px;
+}
+
+#back-set{
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+
+#set-cry{
+    position: absolute;
+    top: 2%;
+    left: 85%;
 }

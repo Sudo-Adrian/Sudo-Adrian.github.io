@@ -4,30 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="css/button.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="main.js"></script>
+    <script defer src="../main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <title>Settings</title>
 </head>
 <body>
-    <nav>
-		<ul>
-			<li><a href="index.html" class="an">home()</a></li>
-			<li><a href="about.html" class="an">about()</a></li>
-			<li><a href="projects.html" class="an">projects()</a></li>
-            <li><a href="contact.html" class="an">contact()</a></li>
-            <li><a href="settings.html" class="an">settings()</a></li>
-		</ul>
-	</nav>
     <div class="transition">
-        <h1 id="title">settings</h1>
-        <p id="theme">.theme = </p>
+        <h1 id="title">Settings</h1>
+        <p id="theme">Theme: </p>
         <button id="btn-theme" class="btn action">Dark</button>
         <div id="color">
-            <p id="color-p">.color = </p>
+            <p id="color-p">Color: </p>
             <button id="red" class="acc"></button>
             <button id="org" class="acc"></button>
             <button id="yel" class="acc"></button>
@@ -37,6 +29,12 @@
             <button id="bla" class="acc"></button>
             <button id="whi" class="acc"></button>
         </div>
+        <a href="index.html">
+            <button class="btn action" id="back-set">back</button>
+        </a>
+
+
     </div>
+    
 </body>
 </html>
