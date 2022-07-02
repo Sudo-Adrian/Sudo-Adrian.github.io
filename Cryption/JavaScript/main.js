@@ -9,19 +9,14 @@ var purple = document.getElementById("pur");
 var black = document.getElementById("bla");
 var white = document.getElementById("whi");
 
-var main_col = document.getElementById("col-main");
-var text_col = document.getElementById("col-text");
-var bgc_col = document.getElementById("col-bg");
+
 var set = document.getElementById("set-theme")
 
 let dark = [localStorage["main"], "#0a0a0a", "#ffffff"]
 let light = [localStorage["main"], "#dddddd", "#000000"]
 
-let theme_local = localStorage["theme"]
-let background_local = localStorage["background"]
-let main_local = localStorage["main"]
-let text_local = localStorage["text"]
 
+set_vars(localStorage["background"], localStorage["main"], localStorage["text"])
 
 //list = ["--main-color", "--bg", "--text"]
 function set_vars(back, main, text) {
@@ -38,38 +33,44 @@ theme_btn.onclick = function() {
     if (localStorage["theme"] == "dark"){
         localStorage["theme"] = "light"
         set_vars(light[1], light[0], light[2])
+        theme_btn.innerText = "light"
     }else if (localStorage["theme"] == "light"){
         localStorage["theme"] = "dark"
+        theme_btn.innerText = "dark"
         set_vars(dark[1], dark[0], dark[2])
     }else{
 
     }
 }
 
+set.onclick = function() {
+    set_vars(document.getElementById("col-bg").value, document.getElementById("col-main").value, document.getElementById("col-text").value)
+}
+
 red.onclick = function() {
-    set_vars(background_local, "#f44545", text_local)
+    set_vars(localStorage["background"], "#f44545", localStorage["text"])
 }
 
 orange.onclick = function() {
-    set_vars(background_local, "#f48b45", text_local)
+    set_vars(localStorage["background"], "#f48b45", localStorage["text"])
 }
 yellow.onclick = function() {
-    set_vars(background_local, "#ffff45", text_local)
+    set_vars(localStorage["background"], "#ffff45", localStorage["text"])
 }
 green.onclick = function() {
-    set_vars(background_local, "#76ff6f", text_local)
+    set_vars(localStorage["background"], "#76ff6f", localStorage["text"])
 }
 blue.onclick = function() {
-    set_vars(background_local, "#6f89ff", text_local)
+    set_vars(localStorage["background"], "#6f89ff", localStorage["text"])
 }
 purple.onclick = function() {
-    set_vars(background_local, "#a63aff", text_local)
+    set_vars(localStorage["background"], "#a63aff", localStorage["text"])
 }
 
 black.onclick = function() {
-    set_vars(background_local, "#000000", text_local)
+    set_vars(localStorage["background"], "#000000", localStorage["text"])
 }
 
 white.onclick = function() {
-    set_vars(background_local, "#ffffff", text_local)
+    set_vars(localStorage["background"], "#ffffff", localStorage["text"])
 }

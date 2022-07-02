@@ -211,7 +211,7 @@
 }
 
 #open-own{
-	top: 75%;
+	top: 65%;
 	left: 19.5%;
 }
 
@@ -226,3 +226,38 @@
 	top: 29%;
 }
 
+#col-bg{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+}
+
+#col-main{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+}
+
+#col-text{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+}
+
+#own-bg{
+    position: absolute;
+    top: 74%;
+    left: 30%;
+}
+
+#own-main{
+    position: absolute;
+    top: 79%;
+    left: 30%;
+}
+
+#own-text{
+    position: absolute;
+    top: 84%;
+    left: 30%;
+}
