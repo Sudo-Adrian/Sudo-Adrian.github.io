@@ -155,3 +155,11 @@ html{
 .transition{
     animation: transform-op 1.5s;
 }
+
+.txt-btn{
+    color: var(--text);
+    text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+    transition: all 0.5s;
+}

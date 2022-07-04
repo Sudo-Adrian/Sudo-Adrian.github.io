@@ -54,3 +54,41 @@ li{
 	transform: translate(0px, 5px)
 }
 
+#nxt_ab{
+	position: absolute;
+	top: 40%;
+	left: 93%;
+}
+
+
+#prev_in{
+	position: absolute;
+	top: 40%;
+	left: 1%;
+}
+
+#nxt_pr{
+	position: absolute;
+	top: 40%;
+	left: 93%;
+}
+
+
+#prev_ab{
+	position: absolute;
+	top: 40%;
+	left: 1%;
+}
+
+#nxt_co{
+	position: absolute;
+	top: 40%;
+	left: 93%;
+}
+
+
+#prev_pr{
+	position: absolute;
+	top: 40%;
+	left: 1%;
+}
