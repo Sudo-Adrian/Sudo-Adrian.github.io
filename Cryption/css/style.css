@@ -3,8 +3,11 @@
     width: 200px;
 }
 
-html, body{
+body, html{
     background-color: var(--bg);
+    color: var(--bg);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;  
 }
 
 #title{
@@ -15,6 +18,7 @@ html, body{
     align-items: center;
     font-size: 40px;
     color: var(--text);
+    background-color: var(--bg);
 }
 #convert{
     position: absolute;

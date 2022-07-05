@@ -37,11 +37,17 @@ li{
 
 }
 
+html{
+    background-color: #0c0c0c;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;  
+}
+
 .an{
 	text-align: center;
 	color: var(--text);
 	text-decoration: none;
-	font-size: 15px;
+	font-size: 20px;
     transition: all 0.5s;
 	background: linear-gradient(to left,
 	#7b29ff,
@@ -54,7 +60,7 @@ li{
 .an:hover{
 	position: relative;
 	color: var(--main-color);
-	font-size: 18px;
+	font-size: 24px;
 	transition: 0.5s;
 }
 
@@ -68,43 +74,38 @@ li{
 
 
 
-#nxt_ab{
+#nxt_pro{
 	position: absolute;
 	top: 150%;
-	left: 53%;
+	left: 60%;
 }
 
 
 #prev_in{
 	position: absolute;
-	top: 40%;
-	left: 1%;
+	top: 100%;
+	left: 40%;
 }
 
 #nxt_pr{
 	position: absolute;
 	top: 40%;
-	left: 93%;
+	left: 60%;
 }
 
 
-#prev_ab{
-	position: absolute;
-	top: 40%;
-	left: 1%;
-}
 
 #nxt_co{
 	position: absolute;
-	top: 40%;
-	left: 93%;
+	top: 100%;
+	left: 60%;
 }
 
 
 #prev_pr{
 	position: absolute;
-	top: 40%;
-	left: 1%;
+	top: 100%;
+	left: 40%;
 }
 
 #about{
@@ -119,7 +120,12 @@ li{
 	top: 130%;
 }
 
-#placeholder{
-	top: 160%;
-	color: #0c0c0c;
+#cryption{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+}
+#info-cryption{
+	position: absolute;
+	transform: translate(0, -70px);
 }

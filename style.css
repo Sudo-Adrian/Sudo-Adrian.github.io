@@ -4,13 +4,6 @@
     --text: #ffffff;
 }
 
-html{
-    background-color: #0c0c0c;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto Mono', monospace;  
-}
-
-
 .btn{
 	transition: all 0.5s;
 	color: #000000;
@@ -231,6 +224,24 @@ html{
     width: 30%;
 }
 
+.content-pro{
+    overflow: scroll;
+    transition: all 5s;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #181818;
+    color: #181818;
+    border: 20px;
+    border-style: solid;
+    border-color: #181818;
+    border-radius: 20px;
+    height: 60%;
+    width: 60%;
+}
+
 .title-ani{
     transition: all 0.25s;
     display: flex;
@@ -254,4 +265,28 @@ html{
 
 .title-ani:active{
     animation-play-state: running;
+}
+
+.pro-img{
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.project{
+    position: absolute;
+    border: 30px;
+    background-color: #282828;
+    border-color: #282828;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.github{
+    text-decoration: none;
+    transform: translate(20px, 50px);
+    background-color: #282828;
+    border: 10px;
+    border-style: solid;
+    border-color: #282828;
+    border-radius: 10px;
 }
