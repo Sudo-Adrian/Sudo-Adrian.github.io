@@ -3,6 +3,9 @@
     width: 200px;
 }
 
+html, body{
+    background-color: var(--bg);
+}
 
 #title{
     width: 100%;
@@ -11,9 +14,8 @@
     justify-content: center;
     align-items: center;
     font-size: 40px;
-    color: rgb(255, 255, 255)
+    color: var(--text);
 }
-
 #convert{
     position: absolute;
     top: 30%;
@@ -337,6 +339,25 @@
 	position: absolute;
 	top: 52%;
 	left: 59%;
+}
+
+.acc{
+	transition: all 0.5s;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	border: 1px;
+	border-color: #aaaaaa;
+	border-style: solid;
+}
+
+.acc:hover{
+	transform: translate(0px, -5px)
+}
+
+.acc:active{
+	transition: all 0.05s;
+	transform: translate(0px, 5px)
 }
 
 #open-own{

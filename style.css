@@ -147,6 +147,15 @@ html{
 
 }
 
+@keyframes wobble {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to { 
+        -webkit-transform: rotate(360deg);
+    }
+
+}
 
 .transition{
     animation: transform-op 1.5s;
@@ -160,7 +169,23 @@ html{
     transition: all 0.5s;
 }
 
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
 .content{
+    overflow: scroll;
+    transition: all 5s;
     justify-content: center;
     position: absolute;
     top: 60%;
@@ -177,6 +202,7 @@ html{
 }
 
 .content-small{
+    overflow: scroll;
     justify-content: center;
     position: absolute;
     top: 40%;
@@ -190,4 +216,25 @@ html{
     border-radius: 20px;
     height: 20%;
     width: 30%;
+}
+
+.title-ani{
+    transition: all 0.25s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background: linear-gradient(to left,
+    #9c45ff,
+    #1f1cff
+    );
+    -webkit-background-clip: text;
+	background-clip: text;
+    color: transparent;
+    animation: wobble 2s linear infinite;
+    animation-play-state: paused; 
+}
+
+.title-ani:hover{
+    animation-play-state: running;
 }

@@ -64,24 +64,7 @@ li{
 	left: 30%;
 }
 
-.acc{
-	transition: all 0.5s;
-	height: 40px;
-	width: 40px;
-	border-radius: 20px;
-	border: 1px;
-	border-color: #aaaaaa;
-	border-style: solid;
-}
 
-.acc:hover{
-	transform: translate(0px, -5px)
-}
-
-.acc:active{
-	transition: all 0.05s;
-	transform: translate(0px, 5px)
-}
 
 #nxt_ab{
 	position: absolute;
