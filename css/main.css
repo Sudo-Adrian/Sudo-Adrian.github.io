@@ -52,7 +52,9 @@ li{
 }
 
 .an:hover{
+	position: relative;
 	color: var(--main-color);
+	font-size: 18px;
 	transition: 0.5s;
 }
 
@@ -68,8 +70,8 @@ li{
 
 #nxt_ab{
 	position: absolute;
-	top: 40%;
-	left: 93%;
+	top: 150%;
+	left: 53%;
 }
 
 
@@ -111,4 +113,13 @@ li{
 
 #learning{
 	top: 90%;
+}
+
+#hobbys{
+	top: 130%;
+}
+
+#placeholder{
+	top: 160%;
+	color: #0c0c0c;
 }

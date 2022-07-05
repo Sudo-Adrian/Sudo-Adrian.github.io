@@ -167,6 +167,19 @@ html{
 	text-decoration: none;
 	font-size: 15px;
     transition: all 0.5s;
+    font-size: 30px;
+    font-style: bold;
+    background: linear-gradient(to left,
+    #9c45ff,
+    #1f1cff
+    );
+    -webkit-background-clip: text;
+	background-clip: text;
+    color: transparent;
+}
+
+.txt-btn:hover{
+    font-size: 35px;
 }
 
 
@@ -236,5 +249,9 @@ html{
 }
 
 .title-ani:hover{
+    animation-play-state: running;
+}
+
+.title-ani:active{
     animation-play-state: running;
 }
