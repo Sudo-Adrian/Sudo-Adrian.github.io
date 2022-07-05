@@ -4,7 +4,15 @@
 }
 
 
-
+#title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255)
+}
 
 #convert{
     position: absolute;
@@ -148,7 +156,7 @@
 #bin{
     position: absolute;
     top: 20%;
-    left: 25%;
+    left: 30%;
 }
 
 @media only screen and (max-width: 1000px){

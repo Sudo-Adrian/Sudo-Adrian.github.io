@@ -1,3 +1,25 @@
+
+
+#title{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: linear-gradient(to left,
+    #1b0000,
+    #ff3232,
+    #8c45ff,
+    #5a3dff,
+    #1e003a);
+    -webkit-background-clip: text;
+	background-clip: text;
+    color: transparent;
+}
+
+
+
 span{
 	color: var(--text);
 }
@@ -21,6 +43,12 @@ li{
 	text-decoration: none;
 	font-size: 15px;
     transition: all 0.5s;
+	background: linear-gradient(to left,
+	#7b29ff,
+	#2138ff);
+	-webkit-background-clip: text;
+	background-clip: texts;
+	color: transparent;
 }
 
 .an:hover{
@@ -29,10 +57,11 @@ li{
 }
 
 
+
 #cry{
 	position: absolute;
 	top: 30%;
-	left: 15%;
+	left: 30%;
 }
 
 .acc{
@@ -91,4 +120,12 @@ li{
 	position: absolute;
 	top: 40%;
 	left: 1%;
+}
+
+#about{
+	font-size: 30px;
+}
+
+#learning{
+	top: 90%;
 }
