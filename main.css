@@ -104,7 +104,7 @@ html{
 
 #prev_pr{
 	position: absolute;
-	top: 100%;
+	top: 130%;
 	left: 40%;
 }
 
@@ -125,7 +125,49 @@ html{
 	top: 30%;
 	left: 25%;
 }
+
 #info-cryption{
 	position: absolute;
 	transform: translate(0, -70px);
+}
+
+#mail-add{
+	position: absolute;
+	transform: translate(290px, 10px);
+	height: 50px;
+	width: 400px;
+	border-radius: 10px;
+}
+
+#mail-con{
+	font-size: 20px;
+	transform: translate(5px, 100px);
+    height: 200px;
+    width: 950px;
+    border-radius: 10px;
+    resize: none;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+#mail-sub{
+	color: #ffffff;
+	background-color: #1a1a1a;
+	height: 50px;
+	width: 100px;
+	transform: translate(0, 120px);
+	border: 2px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color:#0ee3ff;
+}
+
+#info-github{
+	transform: translate(20px, -70px);
+}
+
+#github-h{
+	position: absolute;
+	top: 90%;
+	left: 42%;
 }

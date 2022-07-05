@@ -290,3 +290,22 @@
     border-color: #282828;
     border-radius: 10px;
 }
+
+.mail-c{
+    background-color: #1a1a1a;
+    border: none;
+    color: #0ee3ff;
+    font-size: 25px;
+}
+
+.mail-c::placeholder{
+    color: #0ee3ff;
+    font-size: 20px;
+}
+
+#mail{
+    height: 40%;
+    width: 50%;
+    background-color: #282828;
+    border-color: #282828;
+}
