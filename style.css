@@ -176,19 +176,6 @@
 }
 
 
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
-
 .content{
     overflow: scroll;
     transition: all 5s;
@@ -273,26 +260,41 @@
 }
 
 .project{
+    transition: all 0.5s;
     position: absolute;
     border: 30px;
-    background-color: #282828;
-    border-color: #282828;
+    background-color: #161616;
+    border-color: #161616;
     border-style: solid;
     border-radius: 10px;
+}
+
+.project:hover{
+    box-shadow: 10px 10px #ffffff;
+}
+
+.project:active{
+    transition: 0.05s;
+    transform: translate(0, 20px);
 }
 
 .github{
+    transition: all 0.5s;
     text-decoration: none;
     transform: translate(20px, 50px);
-    background-color: #282828;
+    background-color: #161616;
     border: 10px;
     border-style: solid;
-    border-color: #282828;
+    border-color: #161616;
     border-radius: 10px;
 }
 
+.github:hover{
+    box-shadow: 10px 10px #ffffff;
+}
+
 .mail-c{
-    background-color: #1a1a1a;
+    background-color: #101010;
     border: none;
     color: #0ee3ff;
     font-size: 25px;
@@ -306,6 +308,6 @@
 #mail{
     height: 40%;
     width: 50%;
-    background-color: #282828;
-    border-color: #282828;
+    background-color: #161616;
+    border-color: #161616;
 }

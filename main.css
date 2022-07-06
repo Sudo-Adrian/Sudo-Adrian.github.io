@@ -146,7 +146,7 @@ html{
     width: 950px;
     border-radius: 10px;
     resize: none;
-    background-color: #1a1a1a;
+    background-color: #101010;
     color: #ffffff;
 }
 
@@ -160,6 +160,18 @@ html{
 	border-radius: 10px;
 	border-style: solid;
 	border-color:#0ee3ff;
+	transition: all 0.5s;
+}
+
+
+
+#mail-sub:hover{
+	box-shadow: 5px 5px #ffffff;
+}
+
+#mail-sub:active{
+	transition: all 0.05s;
+	margin-top: 10px;
 }
 
 #info-github{
@@ -170,4 +182,10 @@ html{
 	position: absolute;
 	top: 90%;
 	left: 42%;
+}
+
+#cry-git{
+	position: absolute;
+	top: 53%;
+	left: 26%;
 }
