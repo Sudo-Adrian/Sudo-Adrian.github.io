@@ -74,7 +74,7 @@ html{
 
 #nxt_pro{
 	position: absolute;
-	top: 150%;
+	top: 120%;
 	left: 70%;
 }
 #prev_in{
@@ -102,7 +102,17 @@ html{
 
 
 
+#github-h{
+	position: absolute;
+	top: 90%;
+	left: 42%;
+}
 
+#cry-git{
+	position: absolute;
+	top: 53%;
+	left: 26%;
+}
 
 #about{
 	font-size: 30px;
@@ -124,7 +134,7 @@ html{
 	left: 25%;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
 	#nxt_pro{
 		position: absolute;
 		top: 170%;
@@ -132,7 +142,7 @@ html{
 	}
 	#prev_in{
 		position: absolute;
-		top: 100%;
+		top: 120%;
 		left: 10%;
 	}
 	#nxt_pr{
@@ -142,7 +152,7 @@ html{
 	}
 	#nxt_co{
 		position: absolute;
-		top: 100%;
+		top: 120%;
 		left: 70%;
 	}
 	#prev_pr{
@@ -171,8 +181,100 @@ html{
 
 	#cryption{
 		position: absolute;
+
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#cry-git{
+		position: absolute;
+		top: 90%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+}
+
+@media only screen and (max-height: 700px)and (max-width: 600px){
+	#cryption{
+		position: absolute;
+
+		top: 80%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	#cry-git{
+		position: absolute;
+		top: 110%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@media only screen and (max-height: 950px) and (min-width: 600px){
+	#cry-git{
+		transform: translate(30px, 100px);
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-height: 800px){
+	#nxt_pro{
+		position: absolute;
+		top: 170%;
+		left: 70%;
+	}
+	#prev_in{
+		position: absolute;
+		top: 100%;
+		left: 10%;
+	}
+	#nxt_pr{
+		position: absolute;
+		top: 40%;
+		left: 70%;
+	}
+	#nxt_co{
+		position: absolute;
+		top: 100%;
+		left: 70%;
+	}
+	#prev_pr{
+		position: absolute;
+		top: 130%;
+		left: 30%;
+	}
+
+	#about{
+		font-size: 30px;
+		top: 65%;	
+		width: 80%;
+	}
+	#learning{
+		top: 100%;
+		width: 80%;
+	}
+	#hobbys{
+		top: 140%;
+		width: 80%;
+	}
+
+	#place-in{
+		top: 200%;
+	}
+
+	#cryption{
+		position: absolute;
 		top: 40%;
 		left: 20%;
+	}
+
+	#cry-git{
+		position: absolute;
+		top: 60%;
+		left: 20%;
+		transform: translate(-50%, -50%);
 	}
 
 }
@@ -216,8 +318,6 @@ html{
 	transition: all 0.5s;
 }
 
-
-
 #mail-sub:hover{
 	box-shadow: 5px 5px #ffffff;
 }
@@ -229,16 +329,4 @@ html{
 
 #info-github{
 	transform: translate(20px, -70px);
-}
-
-#github-h{
-	position: absolute;
-	top: 90%;
-	left: 42%;
-}
-
-#cry-git{
-	position: absolute;
-	top: 53%;
-	left: 26%;
 }
